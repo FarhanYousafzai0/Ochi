@@ -26,7 +26,7 @@ const Eyes = () => {
 
   return (
     <div className="w-full h-screen relative">
-      <div className="w-full h-screen bg-center bg-cover bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)]">
+      <div  className="w-full h-screen bg-center bg-cover bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)]">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[99] gap-10 flex items-center">
           
           {/* First Eye */}

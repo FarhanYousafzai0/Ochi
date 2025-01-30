@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 left-0 w-full z-50 bg-opacity-20 backdrop-blur-lg px-12 py-5 font-custom">
+      <div className="fixed top-0  w-full z-50 bg-opacity-20 backdrop-blur-md px-12 py-5 font-custom">
         <div className="flex items-center justify-between">
           <div className="logo">
             <svg
@@ -36,12 +36,12 @@ const Navbar = () => {
             </svg>
           </div>
 
-          <div className="Link flex items-center gap-10 text-black">
+          <div className="Link flex items-center gap-10 text-zinc-600">
             {["Services", "Our work", "About us", "Insights", "Contact us"].map(
               (item, index) => (
                 <a
                   key={index}
-                  className={`font-normal text-1xl ${index === 4 && "ml-32"}`}
+                  className={`font-normal text-1xl whitespace-nowrap ${index === 4 && "ml-32"}`}
                   href="#"
                 >
                   {item}
